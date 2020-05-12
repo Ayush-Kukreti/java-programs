@@ -21,13 +21,11 @@ public class Test
     				j++;
     			}
     		}
-    		
     		if (j!=0) { System.out.print("Sub-String found at position: "+i); 
     		      break; }
     	}
     }
     if (i==str.length())System.out.println("Sub-string not found");
-    
    }
 }
 
