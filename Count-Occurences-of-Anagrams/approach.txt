@@ -1,0 +1,22 @@
+
+brute force
+-- start with the brute force we will consider every substring and then compare it with the pattern and find if it is anagram or not.
+
+
+
+better approach
+-- if we apply sliding window then,
+--idea is take a map which initiallt contains all the char of the pattern as the values (+ve for simplicity)
+-- Once that map is ready 
+-- start the sliding window template left=0, right=0
+    -- at every right pointer add its count to the map (update the map by +1) the check if the current char count is 0 or not
+        -- if the current char count is 0 then remove it from the map
+    -- till the sliding window size is not hit we just simply increase the size of right pointer
+    -- one SW size is hit we will check
+        --map size is 0 or not 
+            --if map size is 0 that means we found an anagram count++
+        now we will also update/move left and right pointers by 1 value each
+        -- before updating the left pointer we have to maintain the value in the map.
+            -- decrement (the char value of the left pointer) in the map
+            -- if the current char count is 0 then remove it from the map
+        -- increment left++ right++ 

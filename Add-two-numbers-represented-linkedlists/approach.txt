@@ -1,0 +1,4 @@
+
+--reverse the both list and add them. 
+--then again reverse the result
+--Implementation is important try to be write concise code
