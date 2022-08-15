@@ -8,7 +8,7 @@
 
 # Most common patterns
 1. Sliding window Problems
-2. Dynamic Programming
+2. Dynamic Programming  
     a. 0/1 Knapsack problem  
     b. Unbounded Knapsack problem  
     c. Longest subsequence problem  
