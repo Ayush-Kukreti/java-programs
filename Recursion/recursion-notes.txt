@@ -1,0 +1,11 @@
+
+It can be applied anywhere
+
+Think in two ways: 
+1. can we make any decision, If not
+2. can we make the input smaller
+
+there are 3 main approaches to tackle the recursion problems
+1. IBH : Induction, Base condtions, Hypothesis
+2. Recursive Tree diagram
+3. choice diagram

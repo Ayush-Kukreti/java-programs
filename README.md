@@ -13,10 +13,12 @@
     b. Unbounded Knapsack problem  
     c. Longest subsequence problem  
     d. Matrix chain multiplication/ Partitioning problems  
+    e. grid based DP  
 3. Recursion based problem
 4. Backtracking 
 5. Binary Search
 6. Binary Tree
 7. Graphs
 8. Heaps
-
+9. Disjoint set union
+10. Two pointers
